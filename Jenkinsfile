@@ -10,7 +10,7 @@ pipeline {
        stage('Jenkins tesing') {
             steps {
                 sh 'pwd'
-                sh 'ls
+                sh 'ls'
             }
         }
     }
