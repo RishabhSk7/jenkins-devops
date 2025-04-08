@@ -11,6 +11,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 sh 'ls'
+                sh 'mkdir check'
             }
         }
     }
